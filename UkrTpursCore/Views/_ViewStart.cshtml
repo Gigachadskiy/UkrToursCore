@@ -1,0 +1,20 @@
+﻿
+@{
+    switch (UkrTourContext.ActiveRoleLayout)
+    {
+        case RolesLayouts.Login : 
+            Layout = "_Layout";
+            break;
+        case RolesLayouts.Admins:
+            Layout = "_LayoutAdmins";
+            break;
+        case RolesLayouts.Clients :
+            Layout = "_LayoutClients";
+            break;
+        case RolesLayouts.Managers :
+            Layout = "_LayoutManagers";
+            break;
+    }
+
+        
+}

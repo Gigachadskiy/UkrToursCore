@@ -1,0 +1,1 @@
+A pet-project. The application is a startup for a Tour Website, made using Entity Framework Core and using a database made in Microsoft SQL Server Management Studio. In future: unitests, verification, and more functionality will be added 
